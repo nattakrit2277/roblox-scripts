@@ -115,7 +115,7 @@ end)
 --------------------------------------------------
 UIS.InputBegan:Connect(function(input, gpe)
 	if gpe then return end
-	if input.KeyCode == Enum.KeyCode.N then
+	if input.KeyCode == Enum.KeyCode.P then
 		enabled = not enabled
 		if enabled then
 			enableESP()
